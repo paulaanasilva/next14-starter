@@ -6,15 +6,15 @@ const Links = () => {
 
   const links = [
     {
-      title: "Homepage",
+      title: "Principal",
       path: "/",
     },
     {
-      title: "About",
+      title: "Sobre",
       path: "/about",
     },
     {
-      title: "Contact",
+      title: "Contato",
       path: "/contact",
     },
     {
@@ -34,7 +34,7 @@ const Links = () => {
       {session ? (
         <>
           {isAdmin && <NavLink item={{ title: "Admin", path: "/admin" }} />}
-          <button className={styles.logout}>Logout</button>
+          <button className={styles.logout}>Sair</button>
         </>
       ) : (
         <NavLink item={{ title: "Login", path: "/login" }} />
