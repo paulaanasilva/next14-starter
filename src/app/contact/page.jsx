@@ -14,20 +14,17 @@ const ContactPage = () => {
         <Image src="/contact.png" alt="" fill className={styles.img} />
       </div>
       <div className={styles.formContainer}>
-        {/* <HydrationTestNoSSR/> */}
-        {/* <div suppressHydrationWarning>{a}</div> */}
         <form action="" className={styles.form}>
-          <input type="text" placeholder="Name and Surname" />
-          <input type="text" placeholder="Email Address" />
-          <input type="text" placeholder="Phone Number (Optional)" />
+          <input type="text" placeholder="Nome Completo" />
+          <input type="text" placeholder="Endereço de E-mail" />
+          <input type="text" placeholder="Telefone (Optional)" />
           <textarea
             name=""
             id=""
             cols="30"
             rows="10"
-            placeholder="Message"
-          ></textarea>
-          <button>Send</button>
+            placeholder="Mensagem"></textarea>
+          <button>Enviar</button>
         </form>
       </div>
     </div>
